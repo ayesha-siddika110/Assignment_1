@@ -7,6 +7,7 @@
 body{
     
     font-family: "Azeret Mono", monospace;
+    color: #0D1321;
 
 }
 
@@ -19,18 +20,32 @@ body{
 
 }
 .nav-button{
+    margin-top: -9px;
     background-color: white;
+}
+.ayesha{
+    padding-top: 3px;
 }
 /* nav end */
 
 /* External cs */
+.p{
+    color: #565A64;
+}
+.gap{
+    padding-top: 50px;
+}
+.gap-margin{
+    margin-top: 30px;
+    background-color: white;
+}
 
 button{
-    padding: 12px;
+    padding: 12px 18px;
     border-radius: 6px;
     border: 1px solid black;
     font-size: 20px;
-    font-weight: semibold;
+    font-weight: 600;
 }
 /* External css end */
 
@@ -48,7 +63,7 @@ button{
 }
 h1{
     font-size: 48px;
-    font-weight: extrabold;
+    font-weight: 800;
 }
 img{
     margin: 70px auto 15px auto;
@@ -67,3 +82,94 @@ h1, p{
     margin-top: 30px;
 }
 /* header content end */
+
+/* why web development start */
+.web-development{
+    background-color: #FAFAFB;
+    /* background-color: blueviolet; */
+    width: 1140px;
+    margin: auto;
+}
+
+.why-web, .why-webp{
+    text-align: center;
+    
+
+}
+.why-web{
+    margin-top: 70px;
+    font-size: 32px;
+    font-weight: 800;
+}
+.why-webp{
+    color: #565A64;
+    
+}
+
+
+
+/* why web development end */
+
+/* 3boxes start */
+.Dev-boxes{
+    /* border: 1px solid green; */
+   
+}
+.box1{
+    width: 946px;
+    height: 320;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 6px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    color: #565A64;
+    
+}
+.box1_1, .box1_2{
+    margin-left: 30px;
+    color: #565A64;
+}
+.box1_1>button{
+    border-radius: 0px;
+    font-weight: 550;
+    color: #565A64;
+}
+/* box2 */
+.box2{
+    width: 946px;
+    height: 320;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    color: #565A64;
+    
+}
+
+.only-gap{
+    height: 50px;
+    width: 946px;
+    background-color: #FAFAFB;
+}
+
+/* 3boxes end */
+
+/* my inspiration section
+.ifram {
+    display: block;
+    width: 900px;
+    height: 550px;
+    border: 8px solid rgb(255, 255, 255);
+    box-shadow: 0 5px 25px #0000004f;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+} */
