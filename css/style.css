@@ -48,6 +48,10 @@ button{
     font-size: 20px;
     font-weight: 600;
 }
+.Download-resume{
+    text-decoration: none;
+    color: #0D1321;
+}
 /* External css end */
 
 
@@ -163,6 +167,11 @@ h1, p{
     height: 50px;
     width: 946px;
     background-color: #FAFAFB;
+}
+
+.learn-mor-a{
+    text-decoration: none;
+    color: #0D1321;
 }
 
 /* 3boxes end */
@@ -333,17 +342,17 @@ footer{
 }
 .footer-box1{
     /* background-color: aqua; */
-    width:28%;
+    width:26%;
 
 }
 .footer-box2{
     /* background-color: aqua; */
-    width: 28%;
+    width: 30%;
 
 }
 .footer-box3{
     /* background-color: aqua; */
-    width: 28%;
+    width: 26%;
 
 }
 .footer-box1-img{
@@ -363,6 +372,16 @@ footer{
     font-weight: 200;
     padding-left: 55px;
     padding-top: 15px;
+}
+.fa-solid{
+    font-size: 20px;
+    color: #0D1321;
+    text-align: left;
+    padding-right: 5px;
+}
+.fa-location-dot{
+    padding-right: 13px;
+
 }
 
 
