@@ -181,11 +181,11 @@ h1, p{
     display: block;
     width: 900px;
     height: 550px;
-    border: 15px solid rgb(255, 255, 255);
+    border: 24px solid rgb(255, 255, 255);
     box-shadow: 0 5px 25px #0000004f;
     margin: auto;
     margin-top: 40px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 /* current target */
