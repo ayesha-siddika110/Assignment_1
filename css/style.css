@@ -206,4 +206,52 @@ h1, p{
 }
 .target-a{
     padding-top: 30px;
+    color: #0D1321;
+    font-weight: 600;
+    margin-top: 10px;
 }
+
+
+
+/* current target end*/
+
+/* my next target section start here */
+.next-target{
+    margin-top: 80px;
+}
+
+.box-next{
+    width: 1140px;
+    height: 170px;
+    display: flex;
+    /* background-color: aqua; */
+    
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 7px #0000004f;
+    color: #0D1321;
+
+}
+.box-next-img>img{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 70px;
+}
+.box-next-content{
+
+    margin-top: 25px;
+}
+.box-next-content>p{
+
+    font-size: 14px;
+}
+.box-next-content-text{
+    margin-left: 30px;
+    padding: 11px;
+    color: #0D1321;
+}
+
+/* my next target section end here */
