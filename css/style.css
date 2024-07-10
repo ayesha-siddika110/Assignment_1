@@ -21,6 +21,7 @@ body{
 }
 .nav-button{
     margin-top: -9px;
+
     background-color: white;
 }
 .ayesha{
@@ -78,14 +79,18 @@ h1, p{
 
 .Contact-with-me{
     background-color: #0D1321;
-    color: white;
+
     margin-top: 30px;
+}
+.Contact-with-me>a{
+    text-decoration: none;
+    color: white;
 }
 /* header content end */
 
 /* why web development start */
 .web-development{
-    background-color: #FAFAFB;
+    background-color: #f8f8f8e5;
     /* background-color: blueviolet; */
     width: 1140px;
     margin: auto;
@@ -187,7 +192,11 @@ h1, p{
     height: 299px;
     background-color: #565A64;
     padding-left: 20px;
+    
 
+}
+.box>img{
+    margin-top: 28px;
 }
 .t-b1{
     background-color: #ff4b1e11;
@@ -204,12 +213,16 @@ h1, p{
     margin-right: 15px;
     border-radius: 12px;
 }
+.hyper-p{
+    margin-bottom: 30px;
+}
 .target-a{
-    padding-top: 30px;
+    
     color: #0D1321;
     font-weight: 600;
-    margin-top: 10px;
+
 }
+
 
 
 
@@ -250,8 +263,16 @@ h1, p{
 }
 .box-next-content-text{
     margin-left: 30px;
+    margin-bottom: 10px;
     padding: 11px;
+    color: #161b25;
+    margin-top: -6px;
+    
+}
+.box-next-content-textp{
     color: #0D1321;
+    font-weight: 600;
+    margin: -10px 43px;
 }
 
 /* my next target section end here */
@@ -288,4 +309,71 @@ h1, p{
     padding: 12px 80px 12px 10px;
     padding-top: 16px;
     text-align: left;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+footer{
+    display: flex;
+    margin: auto;
+ 
+    margin-top: 50px;
+    height: 500px;
+    background-color:#f8f8f8e5 ;
+
+}
+.footer-box{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    height: 400px;
+    margin: auto;
+
+    
+}
+.footer-box1{
+    /* background-color: aqua; */
+    width:28%;
+
+}
+.footer-box2{
+    /* background-color: aqua; */
+    width: 28%;
+
+}
+.footer-box3{
+    /* background-color: aqua; */
+    width: 28%;
+
+}
+.footer-box1-img{
+    width: 200px;
+    margin: 20px 10px;
+
+
+    
+}
+.footer-box1-text{
+    width: 200px;
+    padding-left: 50px;
+    margin: -20px 10px;
+}
+.footer-box1-textp{
+    font-size: 14px;
+    font-weight: 200;
+    padding-left: 55px;
+    padding-top: 15px;
+}
+
+
+.footer-box2-text{
+    margin: 90px 50px 20px 50px;
+}
+
+.footer-box3>a>img{
+    width: 30px;
+    margin: 25px 0 0 10px;
+}
+.ff{
+    margin-left: 45px;
 }
